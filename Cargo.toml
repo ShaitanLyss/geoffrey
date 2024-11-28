@@ -2,7 +2,10 @@
 name = "geoffrey"
 description = "Geoffrey, amène-nous les glaçons."
 license = "GPL-3.0-or-later"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 
 [dependencies]
+serde = "1.0.215"
+serde_yaml = "0.9.34"
+strict-yaml-rust = "0.1.2"
